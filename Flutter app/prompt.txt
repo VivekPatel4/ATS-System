@@ -1,0 +1,12 @@
+build a flutter application which is "ATS System" 
+
+this application consists of very simple but well designed and eye catchy UI for only two pages that are 
+1. Login Page (Only the login page not Registeration page)
+you can take refrence of image1(that i have provided)
+which includes the email and password for and the password field has a eye button which allows user to see the password also include a login with google button 
+for now hardcode the email and password that are email="admin@google.com" password="Admin@123"
+
+2. Contracts page which is empty at first but with a button that says "+ Create new contract" we can add a contract  
+the button for adding a contract will show user a form by filling that form the user can add the contracts which will be shown for example as image2(that i have provided)
+
+for the fields in form use the refrences of the image3 and image4 (i have provided) 

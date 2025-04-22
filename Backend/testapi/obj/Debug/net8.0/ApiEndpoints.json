@@ -1,0 +1,682 @@
+[
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "AddAgent",
+    "RelativePath": "api/admin/add-agent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.models.AddUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "AddService",
+    "RelativePath": "api/admin/add-service",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AdminController\u002BServiceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "AddVendor",
+    "RelativePath": "api/admin/add-vendor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AdminController\u002BVendorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetAdminById",
+    "RelativePath": "api/admin/admin/{adminId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "DeleteAdmin",
+    "RelativePath": "api/admin/admin/{adminId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetAllAdmins",
+    "RelativePath": "api/admin/admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetAgentById",
+    "RelativePath": "api/admin/agent/{agentId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetAgents",
+    "RelativePath": "api/admin/agents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetAllAssignedProperties",
+    "RelativePath": "api/admin/all-assigned-properties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetDashboardStats",
+    "RelativePath": "api/admin/dashboard-stats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "DeleteAgent",
+    "RelativePath": "api/admin/delete-agent/{agentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "DeleteService",
+    "RelativePath": "api/admin/delete-service/{serviceId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "DeleteVendor",
+    "RelativePath": "api/admin/delete-vendor/{vendorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "EditAgent",
+    "RelativePath": "api/admin/edit-agent/{agentId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AdminController\u002BUpdateAgentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "EditVendor",
+    "RelativePath": "api/admin/edit-vendor/{vendorId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AdminController\u002BUpdateVendorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "AdminLogin",
+    "RelativePath": "api/admin/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "Register",
+    "RelativePath": "api/admin/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminRequest",
+        "Type": "testapi.Controllers.AdminController\u002BAdminreg",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetAllServices",
+    "RelativePath": "api/admin/services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softGetAllAdmins",
+    "RelativePath": "api/admin/soft-admins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softGetAgents",
+    "RelativePath": "api/admin/soft-agents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softDeleteAdmin",
+    "RelativePath": "api/admin/soft-delete-admin/{adminId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softDeleteAgent",
+    "RelativePath": "api/admin/soft-delete-agent/{agentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "agentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softDeleteService",
+    "RelativePath": "api/admin/soft-delete-service/{serviceId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "serviceId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softDeleteVendor",
+    "RelativePath": "api/admin/soft-delete-vendor/{vendorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softGetAllServices",
+    "RelativePath": "api/admin/soft-services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "softGetVendors",
+    "RelativePath": "api/admin/soft-vendors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "UpdatePropertyStatus",
+    "RelativePath": "api/admin/update-property-status/{propertyId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AdminController\u002BUpdatePropertyStatusRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetVendorById",
+    "RelativePath": "api/admin/vendor/{vendorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AdminController",
+    "Method": "GetVendors",
+    "RelativePath": "api/admin/vendors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AgentController",
+    "Method": "AddProperty",
+    "RelativePath": "api/agent/add-property",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AddPropertyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AgentController",
+    "Method": "GetAvailableServices",
+    "RelativePath": "api/agent/available-services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AgentController",
+    "Method": "EditProperty",
+    "RelativePath": "api/agent/edit-property/{propertyId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "propertyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.EditPropertyRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AgentController",
+    "Method": "AgentLogin",
+    "RelativePath": "api/agent/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AgentController",
+    "Method": "GetProperties",
+    "RelativePath": "api/agent/properties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AgentController",
+    "Method": "GetServices",
+    "RelativePath": "api/agent/services",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AgentController",
+    "Method": "GetVendorsByServices",
+    "RelativePath": "api/agent/vendors-by-services",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AgentController\u002BServiceSelectionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AuthController",
+    "Method": "GoogleLoginAdmin",
+    "RelativePath": "api/auth/admin/google-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AuthController\u002BGoogleLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AuthController",
+    "Method": "GoogleLoginAgent",
+    "RelativePath": "api/auth/agent/google-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AuthController\u002BGoogleLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AuthController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/auth/validate-token",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.AuthController",
+    "Method": "GoogleLoginVendor",
+    "RelativePath": "api/auth/vendor/google-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.AuthController\u002BGoogleLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.VendorController",
+    "Method": "GetAssignedProperties",
+    "RelativePath": "api/vendor/assigned-properties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.VendorController",
+    "Method": "VendorLogin",
+    "RelativePath": "api/vendor/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.VendorController",
+    "Method": "VendorLoginWithOTP",
+    "RelativePath": "api/vendor/login-with-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.VendorController\u002BLoginWithOTPRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.VendorController",
+    "Method": "VerifyOTP",
+    "RelativePath": "api/vendor/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "testapi.Controllers.VendorController\u002BVerifyOTPRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "testapi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "testapi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
